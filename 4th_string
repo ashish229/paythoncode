@@ -1,0 +1,13 @@
+str = "Hari is a good boy"
+print(str)
+print(len(str))#print string kength
+print(str[0:7:2])#print string Slicing
+print(str[: :-1])#print string revers 
+print(str.isalnum())#check numberic
+print(str.isalpha())#check numberic
+print(str.endswith("boy"))#end small string check
+print(str.count("o"))#count string,charcater
+print(str.find("is"))#find
+print(str.lower())#convert lower case
+print(str.upper())#convert upper case 
+print(str.replace("is","are"))#string replace
