@@ -1,0 +1,15 @@
+list1 = [["Aakash",1],["Ashish",2],["Lucky",4],["Rahul",6],["praveen",9]]
+print(list1[0],list1[1])
+dict1 = dict(list1)
+print(dict1)
+for item,loli  in dict1.items():
+      print(item,"and loly is:",loli)
+for item in dict1:
+     print(item)
+#Quike Quiz 
+# Q.] Create a list and print the number of list are getter then 6 
+list2 = ["Ashish","Visal","Rahul","Manisha",10,20,5,40,3,3,6,5,4,8]
+print(list2)
+for item in list2:
+      if str(item).isnumeric() and item>=6:
+            print("The numbers are :- ",item)
